@@ -1,0 +1,15 @@
+#简单的学习笔记
+设置代理
+git config --global http.https://github.com.proxy http://127.0.0.1:7890
+git config --global https.https://github.com.proxy https://127.0.0.1:7890
+
+取消代理配置
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+
+查看代理配置
+git config --global http.proxy
+git config --global https.proxy
+
+查看全部配置
+git config --global -l
